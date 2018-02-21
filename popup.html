@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="tools.js"></script>
+    <script src="suggest.js"></script>
+    <!-- <script src="jquery-typeahead.js"></script> -->
+    <script src="search.js"></script>
+
+    <!-- <link href="style.css" /> -->
+  </head>
+  <style>
+  #editor:focus {
+     outline: none;
+  }
+
+  #editor {
+    font-size: 20px;
+    color: 	#1E90FF;
+  }
+ </style>
+  <body style="margin:0px !important;">
+    <div style="width: 400px; height: 500px;" id="the-basics">
+      <textarea type="text" class="typeahead" id="editor" style="width: 100%; height: 100%; background-color: #FFEBCD;" placeholder="Edit <html> here.." val=""></textarea>
+      <!-- <input class="typeahead" type="text" placeholder="States of USA"> -->
+      <!-- <input type="text" name="typeahead" id="typeahead" value=""> -->
+    </div>
+  </body>
+</html>
