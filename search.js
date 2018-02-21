@@ -78,5 +78,6 @@ $(document).ready(function() {
     '<noscript></noscript>',
     '<embed src="" />'
   ];
+
   $('#editor').asuggest(suggests);
 });

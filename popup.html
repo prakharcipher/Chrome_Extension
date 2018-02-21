@@ -1,26 +1,38 @@
 <html>
   <head>
     <script src="jquery-3.3.1.min.js"></script>
-    <script src="tools.js"></script>
+    <script src="beautify.min.js"></script>
+    <script src="beautify-css.js"></script>
+    <script src="beautify-html.js"></script>
     <script src="suggest.js"></script>
+    <script src="tools.js"></script>
     <!-- <script src="jquery-typeahead.js"></script> -->
     <script src="search.js"></script>
+    <script src="beautify.js"></script>
+    <!-- <script> alert(html_beautify($('.typeahead').val());</script> -->
 
     <!-- <link href="style.css" /> -->
   </head>
   <style>
+  ::placeholder {
+    color: white;
+    opacity: 0.7; /* Firefox */
+    text-align: center;
+}
+
+
   #editor:focus {
      outline: none;
   }
 
   #editor {
     font-size: 20px;
-    color: 	#1E90FF;
+    color: #FF6347;
   }
  </style>
   <body style="margin:0px !important;">
-    <div style="width: 400px; height: 500px;" id="the-basics">
-      <textarea type="text" class="typeahead" id="editor" style="width: 100%; height: 100%; background-color: #FFEBCD;" placeholder="Edit <html> here.." val=""></textarea>
+    <div style="width: 600px; height: 800px;" id="the-basics">
+      <textarea type="text" id="editor" style="width: 100%; height: 100%; background-color: #2F4F4F;" placeholder="Edit <html> here.."></textarea>
       <!-- <input class="typeahead" type="text" placeholder="States of USA"> -->
       <!-- <input type="text" name="typeahead" id="typeahead" value=""> -->
     </div>
