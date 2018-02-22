@@ -1,5 +1,5 @@
 # HTML-Slate
-A Google Chrome Extension to quick edit your HTML% with so hustle of typing tags and syntax. The popup slate is programmed to detect all the syntax and autocomplete it as you type the initials.
+A Google Chrome Extension to quick edit your HTML5 with so hustle of typing tags and syntax. The popup slate is programmed to detect all the syntax and autocomplete it as you type the initials.
 
 ## How to install -
 
