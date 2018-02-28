@@ -15,4 +15,4 @@ A Google Chrome Extension to quick edit your HTML5 with so hustle of typing tags
 
 ### Note
 
-As and when you write HTML in the slate, you can auto-indent and beautify it just by clicking 'alt' button (or 'command' in Mac).
+As and when you write HTML in the slate, you can auto-indent and beautify it just by clicking 'alt' button (or 'option' in Mac).
